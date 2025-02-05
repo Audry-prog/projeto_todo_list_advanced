@@ -59,7 +59,7 @@ projeto-todo-list-advanced/
    ```
 
 3. Abra o arquivo HTML:
-Basta abrir o arquivo index.html no seu navegador para visualizar a aplicação funcionando.
+Basta abrir o arquivo `index.html` no seu navegador para visualizar a aplicação funcionando.
 
 ## 📢 Funcionalidades
 
@@ -71,7 +71,7 @@ Basta abrir o arquivo index.html no seu navegador para visualizar a aplicação 
 ⚙️ Filtrar tarefas: Filtre tarefas por status: "Todas", "Feitas" ou "A Fazer".
 
 📷 Print da Tela do Projeto
-![Print da Tela do Projeto](img/print_tela_projeto_todo_list)
+![Print da Tela do Projeto](img/print_tela_projeto_todo_list.png)
 
 📜 Licença
 Este projeto foi desenvolvido para fins educacionais com base na videoaula de Matheus Battisti. Sinta-se à vontade para explorar, adaptar e contribuir com o projeto. 🎉
