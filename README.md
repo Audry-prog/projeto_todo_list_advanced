@@ -71,6 +71,7 @@ Basta abrir o arquivo `index.html` no seu navegador para visualizar a aplicaçã
 ⚙️ Filtrar tarefas: Filtre tarefas por status: "Todas", "Feitas" ou "A Fazer".
 
 📷 Print da Tela do Projeto
+
 ![Print da Tela do Projeto](img/print_tela_projeto_todo_list.png)
 
 📜 Licença
