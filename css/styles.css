@@ -1,0 +1,192 @@
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  box-sizing: border-box; /* Prevents inputs from having a maximum width greater than their parent elements */
+}
+
+body {
+  background-image: url("../img/bg-orange-sunset.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+button {
+  background-color: #fdfdfd;
+  color: #BE3144;
+  border: 2px solid #BE3144;
+  padding: 0.3rem 0.6rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: #BE3144;
+  color: #fff;
+}
+
+button:hover > i {
+  color: #fff;
+}
+
+button i {
+  pointer-events: none; /* Prevents the icon from being clicked */
+  color: #BE3144;
+  font-weight: bold; 
+}
+
+input,
+select {
+  padding: 0.25rem 0.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+/* Todo List Header */
+.page-wrapper {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Garantir que a altura ocupe 100% da tela */
+  margin: 0;
+}
+
+.todo-container {
+  max-width: 450px;
+  margin: 3rem auto;
+  background-color: #fdfdfd;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+.todo-container header {
+  text-align: center;
+  padding: 0 1rem 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-container header h1 {
+  color: #BE3144;
+}
+
+/* Todo List Form */
+#todo-form,
+#edit-form {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+#todo-form p,
+#edit-form p {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-control {
+  display: flex; /* Aligns the input and button */
+}
+
+.form-control input {
+  margin-right: 0.3rem;
+}
+
+#cancel-edit-btn {
+  margin-top: 1rem;
+  color: #444;
+}
+
+/* Todo List Toolbar */
+#toolbar {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+
+#toolbar h4 {
+  margin-bottom: 0.5rem;
+}
+
+#search {
+  border-right: 1px solid #ddd;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+#search form {
+  display: flex;
+}
+
+#search input {
+  width: 100%;
+  margin-right: 0.3rem;
+}
+
+#filter {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+#filter select {
+  flex: 1; /* Makes the select fill the remaining space */
+}
+
+/* Todo List */
+#todo-list {
+  max-height: 250px; /* Defines the maximum height of the list container */
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding-right: 10px; /* Prevents the scrollbar from overlapping the content */
+}
+
+.todo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+.todo h3 {
+  flex: 1;
+  font-size: 0.9rem;
+}
+
+.todo button {
+  margin-left: 0.4rem;
+}
+
+.done {
+  background: #E17564;
+}
+
+.done h3 {
+  color: #fff;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+/* Scrollbar */
+#todo-list::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+}
+
+#todo-list::-webkit-scrollbar-thumb {
+  background-color: #E17564; /* Color of the sliding part */
+  border-radius: 10px;
+}
+
+#todo-list::-webkit-scrollbar-thumb:hover {
+  background-color: #B82132 /* Color when hovering */
+}
