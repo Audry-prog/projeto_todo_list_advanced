@@ -74,7 +74,8 @@ Basta abrir o arquivo `index.html` no seu navegador para visualizar a aplicaçã
 
 ![Print da Tela do Projeto](img/print_tela_projeto_todo_list.png)
 
-📜 Licença
+## 📜 Licença
+
 Este projeto foi desenvolvido para fins educacionais com base na videoaula de Matheus Battisti. Sinta-se à vontade para explorar, adaptar e contribuir com o projeto. 🎉
 
 💡 Dúvidas ou sugestões? Contribua com o projeto ou entre em contato! 😃
